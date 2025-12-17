@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Scuderia Ferrari - SF-25</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BBH+Bogle&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url("https://www.wsupercars.com/wallpapers-regular/Formula-1/Scuderia-Ferrari/2025-Formula1-Ferrari-SF-25-003-2160.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: white;
+      font-family: 'BBH Bogle', sans-serif;
+    }
+
+    .taskbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 98%;
+      height: 60px;
+      background-color: #8B0000;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .taskbar-logo {
+      height: 40px;
+      width: auto;
+    }
+
+    .taskbar-menu {
+      display: flex;
+      gap: 30px;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .taskbar-menu span:hover {
+      text-decoration: underline;
+    }
+
+    .bebas-neue {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 70px;
+      letter-spacing: 0.15em;
+      text-align: center;
+      margin: 0;
+    }
+
+    .bbh-bogle-regular {
+      font-size: 28px;
+      text-align: center;
+      margin: 10px 20px 40px 20px;
+    }
+
+    .content-bottom {
+      width: 100%;
+    }
+
+    #intro {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color:black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2000;
+    }
+
+    #intro img {
+      width: 500px;
+      animation: fadeInOut 2s ease-in-out forwards;
+    }
+
+    @keyframes fadeInOut {
+      0% { opacity: 0; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.05); }
+      100% { opacity: 0; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="intro">
+    <img src="https://i.pinimg.com/1200x/0d/2e/79/0d2e79282556c8c4b855d2b0fffa5330.jpg" alt="SF-25 Logo">
+  </div>
+
+  <div class="taskbar">
+    <img src="https://corsaauto.com/_next/image?url=https%3A%2F%2Fcdn.corsaauto.com%2Ficons%2Fcar-emblems%2Fferrari-prancing-horse-logo.png&w=256&q=75" alt="Ferrari Logo" class="taskbar-logo">
+    <div class="taskbar-menu">
+      <span>Home</span>
+      <span>Cars</span>
+      <span>Drivers</span>
+      <span>Location</span>
+    </div>
+  </div>
+
+  <div class="content-bottom">
+    <h1 class="bebas-neue">SF - 25</h1>
+    <p class="bbh-bogle-regular">
+      The SF-25 represents the pinnacle of Scuderia Ferrari’s engineering mastery, blending cutting-edge technology with timeless racing heritage. Its sleek aerodynamic design maximizes downforce while minimizing drag, delivering blistering performance on both track and road. Powered by a high-revving V6 hybrid engine, the SF-25 produces extraordinary horsepower with precise handling and lightning-fast acceleration.
+    </p>
+  </div>
+
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('intro').style.display = 'none';
+      }, 2500);
+    });
+  </script>
+
+</body>
+</html>
