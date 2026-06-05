@@ -1,0 +1,10 @@
+H:\Downloads\Rocket Launcher\Rocket Launcher\bin\Debug\Rocket Launcher.exe.config
+H:\Downloads\Rocket Launcher\Rocket Launcher\bin\Debug\Rocket Launcher.exe
+H:\Downloads\Rocket Launcher\Rocket Launcher\bin\Debug\Rocket Launcher.pdb
+H:\Downloads\Rocket Launcher\Rocket Launcher\obj\Debug\Rocket Launcher.csproj.AssemblyReference.cache
+H:\Downloads\Rocket Launcher\Rocket Launcher\obj\Debug\Rocket_Launcher.Form1.resources
+H:\Downloads\Rocket Launcher\Rocket Launcher\obj\Debug\Rocket_Launcher.Properties.Resources.resources
+H:\Downloads\Rocket Launcher\Rocket Launcher\obj\Debug\Rocket Launcher.csproj.GenerateResource.cache
+H:\Downloads\Rocket Launcher\Rocket Launcher\obj\Debug\Rocket Launcher.csproj.CoreCompileInputs.cache
+H:\Downloads\Rocket Launcher\Rocket Launcher\obj\Debug\Rocket Launcher.exe
+H:\Downloads\Rocket Launcher\Rocket Launcher\obj\Debug\Rocket Launcher.pdb
